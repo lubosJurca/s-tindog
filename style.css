@@ -133,7 +133,7 @@ a {
 .no-more {
     text-align: center;
     margin-top: 15rem;
-
+    color: #B7B7B7;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -161,8 +161,4 @@ a {
     top: 9rem;
     left: 1.5rem;
     display: none;
-}
-
-.hidden {
-    display: block;
 }

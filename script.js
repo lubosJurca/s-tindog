@@ -29,7 +29,7 @@ rejectBtn.addEventListener("click", function (event) {
             nope.style.display = "block"
             setTimeout(() => {
                 nope.style.display = "none"
-                document.getElementById("personal-info").innerHTML = `<div class="no-more">We are sorry, but we could not find any more dogs..Refresh and maybe you´ll find match!</div>`
+                document.getElementById("personal-info").innerHTML = `<div class="no-more">We are sorry, but we could not find any more dogs..Refresh and give it another try! </div>`
             }, 1500)
 
         }
@@ -56,7 +56,7 @@ likeBtn.addEventListener("click", function (event) {
             like.style.display = "block"
             setTimeout(() => {
                 like.style.display = "none"
-                document.getElementById("personal-info").innerHTML = `<div class="no-more">We are sorry, but we could not find any more dogs..Refresh and maybe you´ll find match!</div>`
+                document.getElementById("personal-info").innerHTML = `<div class="no-more">We are sorry, but we could not find any more dogs..Refresh and give it another try!</div>`
             }, 1500)
 
 
