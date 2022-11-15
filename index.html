@@ -8,11 +8,38 @@
     <title>Tindog</title>
     <!-- css -->
     <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <section class="container"></section>
+    <section class="container">
+        <header class="header">
+            <img src="./images/Intersect.png" alt="intersect" class="intersect">
+            <img src="./images/matchIcon.png" alt="match icon" class="match-icon">
+            <img src="./images/chatIcon.png" alt="chat icon" class="chat-icon">
+        </header>
+        <main class="main">
+
+            <div class="personal-info" id="personal-info">
+                <!-- dogs here -->
+
+            </div>
+
+            <div class="decision">
+                <img src="./images/like-image.png" alt="like" id="like" class="like">
+                <img src="./images/nope-image.png" alt="nope" id="nope" class="nope">
+            </div>
+
+            <div class="buttons">
+                <a href="#" class="reject-btn" id="reject-btn"><i class="fa-solid fa-xmark"></i></a>
+                <a href="#" class="heart-btn" id="heart-btn"><i class="fa-solid fa-heart"></i></a>
+            </div>
+        </main>
+    </section>
 </body>
-<script src="script.js"></script>
+<script src="script.js" type="module"></script>
 
 </html>

@@ -1,0 +1,168 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+
+/* Container */
+
+.container {
+    width: 34.375rem;
+    height: 60.815rem;
+    background: linear-gradient(180deg, #FFFFFF 33.29%, #F7F8FC 100%);
+    border-radius: 0.5rem;
+    position: relative;
+
+}
+
+/* App - header */
+
+header {
+    width: 100%;
+    height: 8.32%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.intersect {
+    width: 2rem;
+    height: 2.125rem;
+}
+
+.match-icon {
+    width: 5.25rem;
+    height: 2.625rem;
+}
+
+.chat-icon {
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+
+/* App - body  */
+
+.main {
+    height: 91.68%;
+
+
+}
+
+.dog-picture {
+    height: 46.93rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.dog-name {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #F8F8F8;
+    margin-top: -8.5rem;
+    margin-left: 1.125rem;
+}
+
+.bio {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #B7B7B7;
+    margin-left: 1.125rem;
+
+}
+
+.buttons {
+
+    position: absolute;
+    bottom: 3rem;
+    left: 30%;
+}
+
+a {
+    font-size: 2.5rem;
+
+
+}
+
+.heart-btn {
+    margin: 1rem;
+    color: #00D894;
+    padding: 1rem;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #E9E9EA;
+
+}
+
+.heart-btn:hover {
+    background: #DBFFF4;
+}
+
+.reject-btn {
+    margin: 1rem;
+    color: #E82D70;
+    padding: 1rem 1.5rem;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+.reject-btn:hover {
+    background: #FFE7EF;
+}
+
+.no-more {
+    text-align: center;
+    margin-top: 15rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+/* ****** Hidden imgs */
+
+#like {
+    width: 14.56rem;
+    height: 7.25rem;
+    rotate: -30deg;
+    position: absolute;
+    top: 9rem;
+    left: 1.5rem;
+    display: none;
+}
+
+#nope {
+    width: 14.56rem;
+    height: 7.25rem;
+    rotate: -30deg;
+    position: absolute;
+    top: 9rem;
+    left: 1.5rem;
+    display: none;
+}
+
+.hidden {
+    display: block;
+}
